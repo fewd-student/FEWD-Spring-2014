@@ -1,0 +1,134 @@
+body {
+	background: #eee;
+	margin: 0;
+}
+
+.frame {
+	background: #fff;
+
+	margin: 0 auto 0 10px;
+	padding: 20px 40px;
+	width: 975px;
+}
+
+.upper { text-transform: uppercase; }
+.lower { text-transform: lowercase; }
+
+
+
+li {
+	list-style-position: outside;
+}
+
+
+h1, h2, h3 {
+	font-family: Geogia, serif;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 22px;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+
+
+
+
+.nav_title {
+	color: #999;
+}
+
+
+/*
+
+hr {
+	border: 1px solid #eee;
+	border-width: 5px 5px 30px 5px;
+}
+
+*/
+
+
+
+
+h1 {
+	color: #333;
+	color: #000000;
+
+	font: italic bold 45px Georgia, serif;
+
+	text-transform: uppercase;
+
+	text-transform: lowercase;
+
+	text-transform: capitalize;
+
+
+	line-height: 1.2; // relative
+	line-height: 120%; // percentage
+	line-height: 1.2em;  // em width
+	line-height: 1.2rem;  // root em width
+	line-height: 1.2ex; // x height
+	line-height: 28px; // px value
+}
+
+/*
+
+
+hr {
+	background: blue;
+	border: none;
+	height: 1px;
+}
+*/
+
+.quote {
+	border-left: 10px solid #eee;
+	border-right: 5px solid #eee;
+}
+
+
+
+
+
+p {
+	font-size: 14px;
+	color: #333;
+}
+
+.source {
+	font-style: italic;
+}
+
+
+
+
+hr {
+	border: none;
+	border-top: 1px solid #eee;
+}
+
+
+hr {
+	border: 1px solid #eee;
+	border-width: 1px 0 0 0;
+}
+
+
+hr {
+	background: #eee;
+	border: none;
+	height: 1px;
+	background:
+}
+
+
+
