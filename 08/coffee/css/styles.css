@@ -1,0 +1,219 @@
+/*-------------------------------------------
+  Global
+-------------------------------------------*/
+
+	body {
+		font-family: "Lucida Grande", sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+/*-------------------------------------------
+  Helpers
+-------------------------------------------*/
+
+	.clearfix:after {
+		clear: both;
+		content: '';
+		display: block;
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.absolute_center_parent {
+		position: relative;
+	}
+
+	.absolute_center {
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+/*-------------------------------------------
+  Mobile - Min
+-------------------------------------------*/
+
+	/* !Header */
+	.header {
+		background-color: #241519;
+		background-image: url(../images/beans.jpg);
+		height: 450px;
+		margin: 50px auto;
+	}
+
+	.header .logo {
+		background-image: url(../images/logo.png);
+		height: 103px;
+		overflow: hidden;
+		position: absolute;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 271px;
+	}
+
+	/* !Footer */
+	.footer {
+		background: #241915;
+		color: #fff;
+		font-size: 13px;
+		letter-spacing: 0.05em;
+		line-height: 1.5;
+		margin: 50px 0 0;
+		padding: 50px 0 60px;
+		text-transform: uppercase;
+	}
+
+	.footer .copyright {
+		margin: 0;
+	}
+
+	.footer .social_nav {
+		margin: 0;
+	}
+
+	.footer .social_nav a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.footer .icon {
+		background: url(../images/icon.png);
+		height: 45px;
+		margin: 0 auto -30px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 45px;
+	}
+
+	/* !Intro */
+	.intro {
+		margin: 50px auto;
+		text-align: center;
+	}
+
+	.intro h2 {
+		color: #261913;
+		font-family: Georgia, serif;
+		font-size: 34px;
+		font-weight: normal;
+		line-height: 1;
+		margin: 20px 0;
+	}
+
+	.intro p {
+		color: #666;
+		font-size: 18px;
+		line-height: 1.7;
+	}
+
+	/* !Menu */
+	.menu {
+		background: #f6f6f6;
+		margin: 50px auto;
+		padding: 50px 80px;
+	}
+
+	.menu h3 {
+		color: #6d3b1c;
+		font-family: Georgia, serif;
+		font-size: 28px;
+		font-weight: normal;
+		margin: 30px 0;
+		text-align: center;
+	}
+
+	.menu ul {
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	.menu li {
+		border-bottom: 1px solid #ccc;
+		color: #666;
+		font-size: 15px;
+		line-height: 1.5;
+		list-style: none;
+		margin: 5px 0;
+		padding: 10px 0;
+		width: 48%;
+	}
+
+	.menu li.no_border {
+		border: none;
+	}
+
+	.menu .price {
+		color: #999;
+		width: 60px;
+	}
+
+	/* !Hours */
+	.hours {
+		margin: 50px auto;
+	}
+
+	.hours h4 {
+		color: #261913;
+		font-family: Georgia, serif;
+		font-size: 20px;
+		font-weight: normal;
+		margin: 20px 0 15px;
+		text-transform: uppercase;
+	}
+
+	.hours p {
+		color: #666;
+		font-size: 15px;
+		margin: 10px 0;
+		line-height: 1.7;
+	}
+
+	.hours .button {
+		border: 2px solid #5F3F26;
+		color: #5F3F26;
+		display: inline-block;
+		font-size: 15px;
+		margin: 10px 0 0;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
+
+/*-------------------------------------------
+  Mobile
+-------------------------------------------*/
+	@media screen and (min-width: 500px) {
+
+	}
+
+/*-------------------------------------------
+  Tablet
+-------------------------------------------*/
+	@media screen and (min-width: 740px) {
+
+	}
+
+/*-------------------------------------------
+  Desktop
+-------------------------------------------*/
+	@media screen and (min-width: 980px) {
+
+	}
+
+/*-------------------------------------------
+  Desktop - Max
+-------------------------------------------*/
+	@media screen and (min-width: 1220px) {
+
+	}
