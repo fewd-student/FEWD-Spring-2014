@@ -8,6 +8,11 @@
 		padding: 0;
 	}
 
+	h1, h2, h3, h4, h5, h6 {
+		font-family: Georgia, serif;
+		font-weight: normal;
+	}
+
 /*-------------------------------------------
   Helpers
 -------------------------------------------*/
@@ -106,9 +111,7 @@
 
 	.intro h2 {
 		color: #261913;
-		font-family: Georgia, serif;
 		font-size: 24px;
-		font-weight: normal;
 		line-height: 1;
 		margin: 20px 0;
 	}
@@ -128,9 +131,7 @@
 
 	.menu h3 {
 		color: #6d3b1c;
-		font-family: Georgia, serif;
 		font-size: 28px;
-		font-weight: normal;
 		margin: 30px 0;
 		text-align: center;
 	}
@@ -168,9 +169,7 @@
 
 	.hours h4 {
 		color: #261913;
-		font-family: Georgia, serif;
 		font-size: 20px;
-		font-weight: normal;
 		margin: 20px 0 15px;
 		text-transform: uppercase;
 	}
@@ -211,7 +210,7 @@
 			margin: 0;
 		}
 
-		.gridlock .row .header {
+		.gridlock .row.header_wrapper .header {
 			margin: 0 0 50px;
 			width: 100%;
 		}
