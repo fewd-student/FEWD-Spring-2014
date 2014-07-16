@@ -1,7 +1,5 @@
 // MyTabs Plugin
 ;(function ($, window) {
-	// Default Options
-	var options = {};
 
 	// Public methods
 	var pub = {

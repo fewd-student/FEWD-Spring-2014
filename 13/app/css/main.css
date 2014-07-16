@@ -1,0 +1,74 @@
+
+	body {
+		font-family: "Roboto", sans-serif;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.fit_image {
+		max-width: 100%;
+	}
+
+	.header {
+		padding: 10px 0;
+	}
+
+	.logo {
+		color: #2b3f4c;
+		font-size: 30px;
+		line-height: 58px;
+	}
+
+	.logo span {
+		font-weight: 700;
+	}
+
+	.logo:before {
+		background: url(../images/icon_sprite.png) no-repeat 0 0;
+		content: '';
+		display: block;
+		float: left;
+		height: 60px;
+		margin: 0 20px 0 0;
+		overflow: hidden;
+		width: 60px;
+	}
+
+	.intro h1 {
+		font-size: 28px;
+	}
+
+	.feature:before {
+		background: url(../images/icon_sprite.png) no-repeat;
+		content: '';
+		display: block;
+		margin: 0 auto 20px;
+		overflow: hidden;
+	}
+
+	.feature.tags:before {
+		background-position: 0 -120px;
+		height: 64px;
+		width: 64px;
+	}
+
+	.feature.cloud:before {
+		background-position: -80px -114px;
+		height: 64px;
+		width: 72px;
+	}
+
+	.feature.map:before {
+		background-position: -160px -120px;
+		height: 64px;
+		width: 50px;
+	}
+
+
+	@media screen and (min-width: 740px) {
+		.intro h1 {
+			font-size: 70px;
+		}
+	}
