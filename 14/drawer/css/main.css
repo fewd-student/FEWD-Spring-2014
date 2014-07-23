@@ -1,0 +1,73 @@
+
+	html,
+	body {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	body {
+		font-family: "Roboto", sans-serif;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.header {
+		background: #ccc;
+		height: 60px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 3;
+	}
+
+	.handle {
+		cursor: pointer;
+		float: right;
+		line-height: 60px;
+		margin: 0 20px;
+	}
+
+	.page {
+		background: #eee;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+		height: 100%;
+		left: 0;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		padding: 60px 0 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 2;
+
+/*
+		transition: -webkit-transform 0.4s ease;
+		transition: transform 0.4s ease;
+*/
+
+		transition: left 0.4s ease;
+	}
+
+	.drawer {
+		background: #222;
+		color: #fff;
+		height: 100%;
+		padding: 60px 0 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 300px;
+		z-index: 1;
+	}
+
+
+	.drawer_open .page {
+		left: -300px;
+
+/*
+		-webkit-transform: translate(-300px, 0);
+		transform: translate(-300px, 0);
+*/
+	}
+

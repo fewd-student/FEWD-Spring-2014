@@ -1,0 +1,90 @@
+
+	html,
+	body {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	body {
+		font-family: "Roboto", sans-serif;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.box {
+		bottom: 0;
+		display: block;
+		height: 300px;
+		left: 0;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 300px;
+	}
+
+	.one {
+		background: red;
+		animation-name: random_one;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		opacity: 0.75;
+	}
+
+	.two {
+		background: blue;
+		animation-name: random_two;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		opacity: 0.75;
+	}
+
+	.three {
+		background: green;
+		animation-name: random_three;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		opacity: 0.75;
+	}
+
+	@keyframes random_one {
+		0% {
+			transform: skew(0deg);
+		}
+
+		50% {
+			transform: skew(30deg) rotate(90deg);
+		}
+
+		100% {
+			transform: skew(0deg);
+		}
+	}
+
+	@keyframes random_two {
+		0% {
+			transform: skew(-10deg);
+		}
+
+		50% {
+			transform: skew(10deg) rotate(-90deg) scale(2);
+		}
+
+		100% {
+			transform: skew(-10deg);
+		}
+	}
+
+	@keyframes random_three {
+		0% {
+			transform: skew(20deg);
+		}
+
+		50% {
+			transform: skew(0deg) scale(0.5);
+		}
+
+		100% {
+			transform: skew(20deg);
+		}
+	}

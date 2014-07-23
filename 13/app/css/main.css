@@ -1,7 +1,6 @@
 
 	body {
 		font-family: "Roboto", sans-serif;
-		overflow: hidden;
 		width: 100%;
 	}
 
@@ -295,4 +294,21 @@
 		.grid_image.tablet_margin {
 			margin-top: 70px;
 		}
+	}
+
+
+	#boxer {
+		background: #2b3f4c;
+		border-radius: 0;
+	}
+
+	#boxer.loading .boxer-container,
+	#boxer .boxer-container,
+	#boxer .boxer-content {
+		background: #2b3f4c;
+	}
+
+	#boxer .boxer-position {
+		background: #2b3f4c;
+		color: #fff;
 	}
