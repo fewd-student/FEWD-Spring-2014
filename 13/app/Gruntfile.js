@@ -6,21 +6,22 @@ module.exports = function(grunt) {
 		meta: {
 			banner: '/* \n' +
 					' * <%= pkg.name %> v<%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd") %> \n' +
-					' */'
+					' */ \n'
 		},
 		// CSSMin
 		cssmin: {
+			options: {
+				banner: '<%= meta.banner %>'
+			},
 			combine: {
 				files: '<%= pkg.css %>'
 			}
 		},
 		// Uglify
 		uglify: {
-			options: {
-				banner: '<%= meta.banner %>',
-				report: 'min'
-			},
 			target: {
+				keepSpecialComments: 0,
+				banner: '<%= meta.banner %>',
 				files: '<%= pkg.js %>'
 			}
 		}
