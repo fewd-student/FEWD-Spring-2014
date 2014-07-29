@@ -24,12 +24,24 @@ module.exports = function(grunt) {
 				banner: '<%= meta.banner %>',
 				files: '<%= pkg.js %>'
 			}
+		},
+		// Watch
+		watch: {
+			css: {
+				files: [ 'css/*', '!css/*.min.css' ],
+				tasks: [ 'cssmin' ]
+			},
+			js: {
+				files: [ 'js/*', '!js/*.min.js' ],
+				tasks: [ 'uglify' ]
+			}
 		}
 	});
 
 	// Load tasks
-	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	// Default task.
 	grunt.registerTask('default', [ 'uglify', 'cssmin' ]);

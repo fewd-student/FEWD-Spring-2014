@@ -1,8 +1,6 @@
 
 	$(document).ready(function() {
 
-		$(".lightbox").boxer({
-
-		});
+		$(".lightbox").boxer();
 
 	});

@@ -290,7 +290,9 @@
 		.grid_image {
 			margin-bottom: 10px;
 		}
+	}
 
+	@media screen and (min-width: 740px) and (max-width: 980px) {
 		.grid_image.tablet_margin {
 			margin-top: 70px;
 		}
@@ -312,3 +314,6 @@
 		background: #2b3f4c;
 		color: #fff;
 	}
+
+	#boxer .boxer-close,
+	#boxer .boxer-control { background-image: url(../bower_components/Boxer/jquery.fs.boxer-icons.png); }
