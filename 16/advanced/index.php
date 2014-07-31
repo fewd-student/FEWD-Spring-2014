@@ -1,5 +1,7 @@
 <?
 
+	$www_root = "http://localhost:8888/advanced/";
+
 	// Get requested URL
 	$current_url = $_GET["request_url"];
 	$path = cleanURL($current_url);
