@@ -1,16 +1,18 @@
 <?
 
-	$www_root = "http://localhost:8888/advanced/";
+	session_start();
 
 	// Get requested URL
+	$www_root = "http://benplum.com/fewd/app/";
+
 	$current_url = $_GET["request_url"];
-	$path = cleanURL($current_url);
+	$path = cleanURL(str_ireplace($www_root, "", $current_url));
 
 	// Compute route
 	$route = routeRecursive("templates/", explode("/", $path));
 
 	// Build the page
-	include "templates/_header.php";
+	ob_start();
 
 	if ($route["commands"][0] == "") {
 		unset($route["commands"]);
@@ -22,6 +24,10 @@
 		include "templates/_404.php";
 	}
 
+	$content = ob_get_clean();
+
+	include "templates/_header.php";
+	echo $content;
 	include "templates/_footer.php";
 
 

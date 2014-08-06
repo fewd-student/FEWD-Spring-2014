@@ -1,0 +1,450 @@
+
+	body {
+		font-family: "Roboto", sans-serif;
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Roboto Condensed", sans-serif;
+		font-weight: 300;
+		line-height: 1;
+		margin: 15px 0;
+	}
+
+	p {
+		color: #777;
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.fit_image {
+		max-width: 100%;
+	}
+
+	.button {
+		border-radius: 3px;
+		display: block;
+		font-size: 20px;
+		height: 50px;
+		line-height: 48px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	/* !Header */
+
+	.header {
+		padding: 20px 0;
+	}
+
+	/* !Logo */
+
+	.logo {
+		color: #2b3f4c;
+		font-size: 30px;
+		line-height: 58px;
+	}
+
+	.logo span {
+		font-weight: 700;
+	}
+
+	.logo:before {
+		background: url(../images/icon_sprite.png) no-repeat 0 0;
+		content: '';
+		display: block;
+		float: left;
+		height: 60px;
+		margin: 0 20px 0 0;
+		overflow: hidden;
+		width: 60px;
+	}
+
+	/* !Intro */
+
+	.intro {
+		background: #e77e04 url(../images/intro_bg.jpg) no-repeat center top;
+	}
+
+	.intro .row {
+		padding: 25px 0 50px;
+		position: relative;
+	}
+
+	.intro h1 {
+		color: #fff;
+		font-size: 50px;
+	}
+
+	.intro p {
+		color: #fff;
+		font-size: 20px;
+		line-height: 1.7;
+	}
+
+	.intro .button {
+		background: #fff;
+		color: #e77e04;
+	}
+
+	/* !Features */
+
+	.features {
+		padding: 40px 0;
+	}
+
+	.feature h2 {
+		color: #e77e04;
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+
+	/* !Gallery */
+
+	.gallery {
+		background: #eee;
+		padding: 40px 0;
+	}
+
+	.gallery h3 {
+		color: #2b3f4c;
+		font-size: 36px;
+	}
+
+	.gallery p {
+		margin-bottom: 30px;
+	}
+
+	/* !Download */
+
+	.download {
+		padding: 30px 0;
+	}
+
+	.download h2 {
+		color: #e77e04;
+		font-size: 42px;
+	}
+
+	.download p {
+		font-size: 18px;
+	}
+
+	.download .button {
+		background: #000 url(../images/icon_sprite.png) no-repeat;
+		margin-bottom: 10px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+	}
+
+	.download .button.apple {
+		background-position: 90px -200px;
+	}
+
+	.download .button.google {
+		background-position: 90px -260px;
+	}
+
+	.download .button.amazon {
+		background-position: 90px -320px;
+	}
+
+	/* !Footer */
+
+	.footer {
+		border-top: 1px solid #ccc;
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	.footer .social_nav {
+		padding: 20px 0;
+	}
+
+	.footer .social_link {
+		background: url(../images/icon_sprite.png) no-repeat;
+		display: inline-block;
+		height: 39px;
+		margin: 0 2px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 40px;
+	}
+
+	.footer .social_link.facebook {
+		background-position: -80px 0;
+	}
+
+	.footer .social_link.twitter {
+		background-position: -120px 0;
+	}
+
+	.footer .social_link.google {
+		background-position: -160px 0;
+	}
+
+	.footer .footer_link {
+		color: #2b3f4c;
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	.footer .copyright {
+		margin: 10px 0;
+	}
+
+
+	.subpage {
+		padding: 50px 0 75px;
+	}
+
+	.subpage h1 {
+		color: #2b3f4c;
+		font-size: 50px;
+		margin: 0 0 30px;
+	}
+
+
+	@media screen and (min-width: 500px) {
+		.grid_image { margin-bottom: 35px; }
+
+		.download .button.apple {
+			background-position: 180px -200px;
+		}
+
+		.download .button.google {
+			background-position: 180px -260px;
+		}
+
+		.download .button.amazon {
+			background-position: 180px -320px;
+		}
+	}
+
+
+	/* ! Smaller than Tablet */
+	@media screen and (max-width: 739px) {
+		/* ! Small icons */
+		.feature h2:after {
+			background: url(../images/icon_sprite.png) no-repeat;
+			content: '';
+			display: inline-block;
+			margin: 0 0 0 15px;
+			overflow: hidden;
+			vertical-align: bottom;
+		}
+
+		.feature.tags h2:after {
+			background-position: 0 -80px;
+			height: 31px;
+			width: 31px;
+		}
+
+		.feature.cloud h2:after {
+			background-position: -40px -77px;
+			height: 31px;
+			width: 35px;
+		}
+
+		.feature.map h2:after {
+			background-position: -80px -80px;
+			height: 31px;
+			width: 24px;
+		}
+	}
+
+	/* !Tablet */
+	@media screen and (min-width: 740px) {
+		.intro h1 {
+			font-size: 70px;
+		}
+
+		.intro .phone:before {
+			background: url(../images/intro_phone.png) no-repeat center top;
+			bottom: 0;
+			content: '';
+			display: block;
+			height: 440px;
+			left: 535px;
+			position: absolute;
+			width: 325px;
+		}
+
+		.intro .button {
+			display: inline-block;
+			padding: 0 40px;
+		}
+
+		.features {
+			padding: 50px 0;
+		}
+
+		.feature {
+			text-align: center;
+		}
+
+		.feature:before {
+			background: url(../images/icon_sprite.png) no-repeat;
+			content: '';
+			display: block;
+			margin: 0 auto 20px;
+			overflow: hidden;
+		}
+
+		.feature.tags:before {
+			background-position: 0 -120px;
+			height: 64px;
+			width: 64px;
+		}
+
+		.feature.cloud:before {
+			background-position: -80px -114px;
+			height: 64px;
+			width: 72px;
+		}
+
+		.feature.map:before {
+			background-position: -160px -120px;
+			height: 64px;
+			width: 50px;
+		}
+
+		.gallery {
+			padding: 50px 0;
+		}
+
+		.gallery p {
+			padding-right: 30px;
+		}
+
+		.grid_image {
+			margin-bottom: 10px;
+		}
+
+		.grid_image.tablet_margin {
+			margin-top: 70px;
+		}
+
+		.download {
+			padding: 50px 0;
+			text-align: center;
+		}
+
+		.download p {
+			margin-bottom: 30px;
+		}
+
+		.download .button {
+			display: inline-block;
+			margin: 0 5px;
+			width: 215px;
+		}
+
+		.download .button.apple {
+			background-position: 55px -200px;
+		}
+
+		.download .button.google {
+			background-position: 55px -260px;
+		}
+
+		.download .button.amazon {
+			background-position: 55px -320px;
+		}
+
+		.footer .footer_nav {
+			padding: 6px 0;
+			text-align: left;
+		}
+
+		.footer .copyright {
+			display: inline-block;
+			margin: 0 0 0 5px;
+		}
+
+		.footer .social_nav {
+			padding: 0;
+			text-align: right;
+		}
+	}
+
+
+	@media screen and (min-width: 980px) {
+		.intro .phone {
+			padding: 70px 0 100px;
+		}
+
+		.intro .phone:before {
+			height: 530px;
+			left: 585px;
+			bottom: 0;
+		}
+
+		.features {
+			padding: 100px 0 80px;
+		}
+
+		.gallery {
+			padding: 100px 0 80px;
+		}
+
+		.gallery h3 {
+			margin-top: 65px;
+		}
+
+		.grid_image {
+			margin-bottom: 15px;
+		}
+
+		.grid_image.tablet_margin {
+			margin-top: 0;
+		}
+
+		.download {
+			padding: 80px 0 100px;
+		}
+
+
+		.subpage {
+			padding: 75px 0 100px;
+		}
+	}
+
+
+	@media screen and (min-width: 1220px) {
+		.intro .phone:before {
+			left: 715px;
+		}
+
+		.gallery h3 {
+			margin-top: 110px;
+		}
+
+		.grid_image {
+			margin-bottom: 20px;
+		}
+	}
+
+
+	#boxer {
+		background: #2b3f4c;
+		border-radius: 0;
+	}
+
+	#boxer.loading .boxer-container,
+	#boxer .boxer-container,
+	#boxer .boxer-content {
+		background: #2b3f4c;
+	}
+
+	#boxer .boxer-position {
+		background: #2b3f4c;
+		color: #fff;
+	}

@@ -1,0 +1,29 @@
+{
+  "name": "PicticiousPro",
+  "version": "1.0.0",
+  "description": "App website",
+  "author": "Ben Plum",
+  "license": "MIT",
+  "css": {
+    "css/site.min.css": [
+      "bower_components/normalize-css/normalize.css",
+      "bower_components/Gridlock/fs.gridlock.css",
+      "bower_components/Boxer/jquery.fs.boxer.css",
+      "css/main.css"
+    ]
+  },
+  "js": {
+    "js/site.min.js": [
+      "bower_components/jquery/dist/jquery.js",
+      "bower_components/Boxer/jquery.fs.boxer.js",
+      "js/main.js"
+    ]
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "time-grunt": "^0.4.0"
+  }
+}
