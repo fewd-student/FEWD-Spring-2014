@@ -61,19 +61,19 @@
 </section>
 
 <section class="plax">
-	<div class="content">
+	<div class="content wow fadeInUp">
 		<h3>Filter Everything</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
 	</div>
-	<div class="background scrolly" data-velocity="-0.2" data-fit="300"></div>
+	<div class="background scrolly" data-velocity="-0.2"></div>
 </section>
 
 <section class="download row" id="download">
 	<div class="all-full">
 		<h2>Download Now</h2>
 		<p>Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol. </p>
-		<a href="#" class="button store apple wow flipInX">App Store</a>
-		<a href="#" class="button store google wow flipInX" data-wow-delay="0.05s">Google Play</a>
-		<a href="#" class="button store amazon wow flipInX" data-wow-delay="0.1s">Amazon</a>
+		<a href="#" class="button store apple wow flipInX" data-wow-offset="100">App Store</a>
+		<a href="#" class="button store google wow flipInX" data-wow-delay="0.05s" data-wow-offset="100">Google Play</a>
+		<a href="#" class="button store amazon wow flipInX" data-wow-delay="0.1s" data-wow-offset="100">Amazon</a>
 	</div>
 </section>
