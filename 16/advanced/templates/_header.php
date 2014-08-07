@@ -10,6 +10,7 @@
 		<link href="<?=$www_root?>bower_components/normalize-css/normalize.css" rel="stylesheet">
 		<link href="<?=$www_root?>bower_components/Gridlock/fs.gridlock.css" rel="stylesheet">
 		<link href="<?=$www_root?>bower_components/Boxer/jquery.fs.boxer.css" rel="stylesheet">
+		<link href="<?=$www_root?>bower_components/animate.css/animate.min.css" rel="stylesheet">
 		<link href="<?=$www_root?>css/main.css" rel="stylesheet">
 		<link href="<?=$www_root?>css/form.css" rel="stylesheet">
 
@@ -20,6 +21,8 @@
 
 		<script src="<?=$www_root?>bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="<?=$www_root?>bower_components/Boxer/jquery.fs.boxer.min.js"></script>
+		<script src="<?=$www_root?>bower_components/WOW/dist/wow.min.js"></script>
+		<script src="<?=$www_root?>js/jquery.scrolly.js"></script>
 		<script src="<?=$www_root?>js/main.js"></script>
 		<script src="<?=$www_root?>js/form.js"></script>
 	</head>
