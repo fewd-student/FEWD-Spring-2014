@@ -7,8 +7,6 @@
 
 		$(".lightbox").boxer();
 
-		$(".scrolly").scrolly({
-			bgParallax: true
-		});
+		$(".pane").plax();
 
 	});

@@ -22,7 +22,7 @@
 		<script src="<?=$www_root?>bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="<?=$www_root?>bower_components/Boxer/jquery.fs.boxer.min.js"></script>
 		<script src="<?=$www_root?>bower_components/WOW/dist/wow.min.js"></script>
-		<script src="<?=$www_root?>js/jquery.scrolly.js"></script>
+		<script src="<?=$www_root?>js/jquery.plax.js"></script>
 		<script src="<?=$www_root?>js/main.js"></script>
 		<script src="<?=$www_root?>js/form.js"></script>
 	</head>

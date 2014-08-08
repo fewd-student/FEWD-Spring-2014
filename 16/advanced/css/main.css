@@ -36,6 +36,26 @@
 		text-transform: uppercase;
 	}
 
+/*
+	.animated:before {
+		-webkit-animation-duration: 1s;
+				animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+	}
+
+	.feature.animated:before {
+		-webkit-animation-name: bounce;
+				animation-name: bounce;
+		-webkit-transform-origin: center bottom;
+			-ms-transform-origin: center bottom;
+				transform-origin: center bottom;
+
+		-webkit-animation-delay: 0.5s;
+				animation-delay: 0.5s;
+	}
+*/
+
 	/* !Header */
 
 	.header {
@@ -266,7 +286,7 @@
 			font-size: 70px;
 		}
 
-		.intro .phone:before {
+		.intro .phone {
 			background: url(../images/intro_phone.png) no-repeat center top;
 			bottom: 0;
 			content: '';
@@ -377,11 +397,11 @@
 
 
 	@media screen and (min-width: 980px) {
-		.intro .phone {
+		.intro .container {
 			padding: 70px 0 100px;
 		}
 
-		.intro .phone:before {
+		.intro .phone {
 			height: 530px;
 			left: 585px;
 			bottom: 0;
@@ -419,7 +439,7 @@
 
 
 	@media screen and (min-width: 1220px) {
-		.intro .phone:before {
+		.intro .phone {
 			left: 715px;
 		}
 
@@ -526,7 +546,7 @@
 
 
 .plax  {
-	background: #eee;
+	background-image: url(../images/photos/08.jpg);
 	min-height: 750px;
 	margin: 0;
 	overflow: hidden;
@@ -538,19 +558,19 @@
 .plax .content {
 	text-align: center;
 	height: 200px;
-	bottom: 0;
 	top: 0;
 	left: 0;
-	right: 0;
 	width: 500px;
 	position: absolute;
-	margin: auto;
+	margin: 0 auto;
+	width: 100%;
 	z-index: 2;
 }
 
 .plax .content h3 {
 	color: #fff;
 	font-size: 50px;
+	margin-top: 0;
 }
 
 .plax .content p {
@@ -558,6 +578,7 @@
 	font-size: 20px;
 }
 
+/*
 .plax .background {
 	background: url(../images/photos/08.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
@@ -569,12 +590,17 @@
 	width: 100%;
 }
 
-.plax .background:after {
-	background: rgba(43, 63, 76, 0.5);
-	content: '';
-	height: 100%;
-	left: 0;
+.plax .background
+*/
+
+
+.pane {
+	background-color: black;
+	background-attachment: fixed;
+	background-postion: center top;
+	background-repeat: no-repeat;
+	background-size: auto 1850px;
+	overflow: hidden;
+	position: relative;
 	width: 100%;
-	position: absolute;
-	top: 0;
 }

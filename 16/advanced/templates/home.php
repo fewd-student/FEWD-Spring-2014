@@ -1,12 +1,13 @@
 <section class="intro">
-	<div class="row phone wow fadeIn">
-		<div class="mobile-full tablet-4 desktop-6 wow fadeIn" data-wow-delay="0.1s">
+	<div class="row container">
+		<div class="mobile-full tablet-4 desktop-6 wow fadeInRight">
 			<h1>Nice Shot</h1>
 			<div>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
 				<a href="#download" class="button">Download Now</a>
 			</div>
 		</div>
+		<span class="phone wow fadeInRight" data-wow-delay="0.25s"></span>
 	</div>
 </section>
 
@@ -60,12 +61,11 @@
 	</div>
 </section>
 
-<section class="plax">
-	<div class="content wow fadeInUp">
+<section class="pane plax">
+	<div class="content plax-content">
 		<h3>Filter Everything</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
 	</div>
-	<div class="background scrolly" data-velocity="-0.2"></div>
 </section>
 
 <section class="download row" id="download">
